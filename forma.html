@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+ 	<head>
+ 		<title>formaHTML</title>
+ 		<meta charset="utf-8">
+ 	</head>
+
+ 	<body>
+
+ 		<form action="ThankYouPage.html" method="post">
+ 			
+ 			<fieldset>
+
+ 				<legend>User data</legend>
+
+ 				<label>Name <br /><input type="text" name="FirstName" placeholder="First_Name" size="30" maxlength="10" required></label>
+
+ 				<br />
+
+ 				<label>Last Name <br /><input type="text" name="LastName" placeholder="Last_Name" size="30" maxlength="30" required></label>
+
+ 				<br />
+
+ 				<label>Adress <br /><input type="text" name="Adress" placeholder="Adress" size="50" maxlength="50" required></label>
+
+ 				<br/>
+
+ 				<label>Email <br /><input type="email" name="email" placeholder="Email" size="50" required></label>
+
+ 				<br/>
+
+ 				<label>Password <br /><input type="password" name="password" placeholder="Password" minlength="7" maxlength="15" required></label>
+
+ 				<br />
+ 				<hr />
+
+ 				<div>Gender</div>
+
+				<input type="radio" name="gender" value="male" checked> Male<br />
+				<input type="radio" name="gender" value="female"> Female<br />
+				<input type="radio" name="gender" value="shemale"> Shemale<br />
+
+				<hr />
+
+				<label>Biography <br /><textarea rows="10" cols="50" placeholder="Biography"></textarea></label>
+
+ 			</fieldset>
+
+ 			<fieldset>
+ 				
+ 				<legend>Credit card data</legend>
+
+ 				<div>Amount to be paid <input type="text" name="Amount" value="28$" size="3" disabled></div>
+
+ 				<label>Credit card number <input type="number" name="CreditCardNumber" size="16" min="1000000000000000" max="9999999999999999" required></label>
+
+ 				<br />
+
+ 				<div>Credit card type</div>
+ 				<select>
+ 					<option value="Master" selected>Master</option>
+ 					<option value="Visa">Visa</option>
+ 					<option value="American express">American express</option>
+ 				</select>
+
+  			</fieldset>
+		
+			<input type="submit" value="Submit" id="Submit">
+
+ 		</form>
+
+ 	</body>
+
+</html>
